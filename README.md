@@ -10,5 +10,4 @@
 `npm run build`
 
 ## Deploy
-`npm run deploy`
-It will build automatically.
+Hemsidan deployas automatiskt vid varje push till `main` branchen
