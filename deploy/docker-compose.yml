@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nginx:
+    build: ..
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt/live/sakerhetssm.se/fullchain.pem:/certs/sakerhetssm.se/fullchain.pem:ro
+      - /etc/letsencrypt/live/sakerhetssm.se/privkey.pem:/certs/sakerhetssm.se/privkey.pem:ro
+      - /etc/letsencrypt/live/xn--skerhetssm-q5a.se/fullchain.pem:/certs/xn--skerhetssm-q5a.se/fullchain.pem:ro
+      - /etc/letsencrypt/live/xn--skerhetssm-q5a.se/privkey.pem:/certs/xn--skerhetssm-q5a.se/privkey.pem:ro
+      - /var/log/nginx/access.log:/var/log/nginx/access.log
+      - /var/log/nginx/error.log:/var/log/nginx/error.log
+    ports:
+      - "80:80"
+      - "443:443"

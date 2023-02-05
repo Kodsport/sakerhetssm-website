@@ -1,0 +1,74 @@
+- name: Deploy the website to the server
+  hosts: server
+  tasks:
+    # update and packages
+    - name: apt update and upgrade
+      apt:
+        update_cache: true
+        upgrade: true
+        autoremove: true
+      become: true
+    - name: install packages
+      apt:
+        package:
+          - htop
+          - git
+      become: true
+
+    # setup files
+    - name: git clone website
+      git:
+        repo: https://github.com/Kodsport/sakerhetssm-website.git
+        dest: /srv/website/
+        update: true
+      become: true
+
+    # install docker
+    - name: install docker dependencies
+      apt:
+        package:
+          - ca-certificates
+          - curl
+          - gnupg
+          - lsb-release
+      become: true
+    - name: add Docker GPG apt Key
+      apt_key:
+        url: https://download.docker.com/linux/debian/gpg
+      become: true
+    - name: add Docker Repository
+      apt_repository:
+        repo: deb https://download.docker.com/linux/debian {{ ansible_facts['lsb']['codename'] }} stable
+      become: true
+    - name: apt update
+      apt:
+        update_cache: true
+      become: true
+    - name: install docker and compose
+      apt:
+        package:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-compose
+      become: true
+
+    # get ssl cert with certbot
+    - name: run certbot role
+      import_role:
+        name: ansible-role-certbot
+      vars:
+        certbot_create_if_missing: true
+        certbot_admin_email: mateusz.drwal@kodsport.se
+        certbot_certs:
+          - domains:
+              - "sakerhetssm.se"
+              - "xn--skerhetssm-q5a.se"
+      become: true
+
+    # start nginx
+    - name: start nginx
+      community.docker.docker_compose:
+        project_src: /srv/website/deploy/
+        build: true
+      become: true
