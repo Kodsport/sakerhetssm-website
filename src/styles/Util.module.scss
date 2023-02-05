@@ -1,0 +1,40 @@
+.centerimg {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-height: 150px;
+    max-width: 100%;
+  }
+}
+
+.reg_button_container {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reg_button {
+  padding: 0.6rem 1rem;
+  font-size: 2rem;
+  color: #ffab1c;
+  border-radius: .2rem;
+  border-width: 0;
+  background-color: #002c36;
+  cursor: pointer;
+}
+
+.discord_email_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  #discord {
+    max-width: 20rem;
+  }
+
+  #mail {
+    height: 7rem;
+    color: white;
+  }
+}
