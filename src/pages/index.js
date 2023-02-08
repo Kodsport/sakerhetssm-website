@@ -90,8 +90,8 @@ const IndexPage = () => {
       <h3><a href="https://www.sentor.se">Sentor</a></h3>
       <p>Sentor Security är ett renodlat cybersäkerhetsföretag med över 20 års erfarenhet i branschen. På våra kontor runt om i Norden arbetar över 80 anställda dedikerat med att testa och skydda våra kunders digitala tillgångar, och tillsammans bildar vi landets största och mest erfarna samling av pentestare och säkerhetsanalytiker. <a href="https://www.sentor.se">www.sentor.se</a></p>
 
-      {/* <h3>Google Cloud</h3> */}
-      {/* <p>Infra sponsored by <a href="https://goo.gle/ctfsponsorship">goo.gle/ctfsponsorship</a></p> */}
+      <h3>Google Cloud</h3>
+      <p>Infra sponsored by <a href="https://goo.gle/ctfsponsorship">goo.gle/ctfsponsorship</a></p>
     </MainLayout >
   )
 }
