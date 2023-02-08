@@ -34,6 +34,7 @@ const Ssm2022Page = () => {
         <li>Hannes Bredberg</li>
         <li>Movitz Sunar</li>
         <li>Tobias Lundberg</li>
+        <li>Laith Abbawi</li>
       </ul>
       <h4>Andra som hjälpte till!</h4>
       <ul>
