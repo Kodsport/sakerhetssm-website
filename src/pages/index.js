@@ -42,7 +42,7 @@ const IndexPage = () => {
 
       <h3>Länkstrul</h3>
       <p>Oj, nu har den <span style={{ color: "var(--accent-color)" }} >orangea</span> delen snurrat till sig. Kan du fixa länken? </p>
-      <p style={{ textAlign: "center", fontSize: "2.5em" }}>https://sakerhetssm.se/<span style={{ color: "var(--accent-color)", fontSize: "1.5em" }}>rmxffs</span></p>
+      <p style={{ textAlign: "center", fontSize: "2.5em"}}>https://<wbr/>sakerhetssm.se<wbr/>/<span style={{ color: "var(--accent-color)", fontSize: "1.5em" }}>rmxffs</span></p>
 
       <h1>ECSC 2023</h1>
       <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka EM i cybersäkerhet, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen. Håll utkik för mer mer info!</p>
