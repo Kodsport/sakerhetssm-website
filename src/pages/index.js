@@ -47,7 +47,7 @@ const IndexPage = () => {
       <h1>ECSC 2023</h1>
       <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka EM i cybersäkerhet, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen. Håll utkik för mer mer info!</p>
 
-      <h1>Huvudsponsor</h1>
+      <h1>I samarbete med</h1>
       <div className={Sponsor.logo}><a href="https://www.fra.se/"><img style=
         {{
           /* the main sponsor gets a bigger logo */
