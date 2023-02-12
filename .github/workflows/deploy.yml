@@ -12,13 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run Ansible playbook
-        uses: dawidd6/action-ansible-playbook@v2.6.1
+      - uses: actions/setup-node@v3
         with:
-          playbook: deploy_playbook.yml
-          directory: ./deploy
-          key: ${{secrets.SSH_PRIVATE_KEY}}
-          inventory: |
-            [server]
-            deploy-website@35.217.39.181
-          options: --verbose
+          node-version: 16
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - run: echo "${{secrets.SSH_PRIVATE_KEY}}" > id_rsa
+      - run: chmod 400 id_rsa
+      - run: rsync -e "ssh -o StrictHostKeyChecking=no -i id_rsa" -r --delete public/ deploy-website@sakerhetssm.se:ssm_web_static/
