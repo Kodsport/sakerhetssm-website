@@ -23,7 +23,7 @@ const IndexPage = () => {
 
       <p>Tävlingen är riktad främst mot gymnasie- och högstadieelever, och består av ett kval och en final. Man tävlar i lag med upp till 3 personer, så du kan tävla själv eller samla två kompisar för en ännu roligare upplevelse! Kvalet hålls online den 10-12 mars, med en träningstävling veckan innan för att hjälpa till att värma upp. Finalen hålls den 12-14 maj på Chalmers tekniska högskola i Göteborg för de ~30 bästa eleverna, med betald resa, mat och boende.</p>
 
-      <p>Du kan redan nu <a href="https://ctf.sakerhetssm.se/signin">registrera dig</a> till tävligen! Joina gärna också <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> där du kan nå oss organisatörer, prata med andra deltagare, visa dina egna projekt eller ställa allmänna datorrelaterade frågor. Vi har också en <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> där vi skickar ut uppdateringar om tävlingen.</p>
+      <p>Du kan redan nu <a href="https://ctf.sakerhetssm.se/signin">registrera dig</a> till tävligen! Joina gärna också <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> där du kan nå oss organisatörer, prata med andra deltagare, visa dina egna projekt eller ställa allmänna datorrelaterade frågor. Vi har också en <a href="https://mail.sakerhetssm.se/subscription/form">mailinglista</a> där vi skickar ut uppdateringar om tävlingen.</p>
 
       <div className={style.reg_button_container}>
         <a href="https://ctf.sakerhetssm.se/signin" className={style.reg_button}>
@@ -33,7 +33,7 @@ const IndexPage = () => {
 
       <div className={style.discord_email_box}>
         <a href="https://discord.gg/edKFKKU"><img id={style.discord} src={discordLogo} alt="Discord" /></a>
-        <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162"><img id={style.mail} src={envelopeImg} alt="Mailinglista" /></a>
+        <a href="https://mail.sakerhetssm.se/subscription/form"><img id={style.mail} src={envelopeImg} alt="Mailinglista" /></a>
       </div>
 
       <h1>Lös första problemet redan nu!</h1>
@@ -42,7 +42,7 @@ const IndexPage = () => {
 
       <h3>Länkstrul</h3>
       <p>Oj, nu har den <span style={{ color: "var(--accent-color)" }} >orangea</span> delen snurrat till sig. Kan du fixa länken? </p>
-      <p style={{ textAlign: "center", fontSize: "2.5em"}}>https://<wbr/>sakerhetssm.se<wbr/>/<span style={{ color: "var(--accent-color)", fontSize: "1.5em" }}>rmxffs</span></p>
+      <p style={{ textAlign: "center", fontSize: "2.5em" }}>https://<wbr />sakerhetssm.se<wbr />/<span style={{ color: "var(--accent-color)", fontSize: "1.5em" }}>rmxffs</span></p>
 
       <h1>ECSC 2023</h1>
       <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka EM i cybersäkerhet, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen. Håll utkik för mer mer info!</p>
