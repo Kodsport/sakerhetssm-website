@@ -49,7 +49,7 @@ const IndexPage = () => {
       <p>Utöver chansen att kvala vidare till <a href="#ecsc">ECSC</a>, kan man vinna presentkort genom att prestera bra i finalen. Vi delar ut 3000kr i presentkort till webhallen för det vinnande laget, och 1800kr, 1500kr, 1200kr samt 900kr till lagen på plats 2-5. Det är också sannolikt att våra sponsorer kommer med fler finalpriser utöver detta!</p>
 
       <h1 id="ecsc">ECSC 2023</h1>
-      <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka EM i cybersäkerhet, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen. Håll utkik för mer mer info!</p>
+      <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka EM i cybersäkerhet, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen. De bästa 5-10 deltagarna på finalen kommer bjudas in till en veckas bootcamp, fylld med föreläsningar från experter och kul häng. Därefter kommer landslaget väljas bland deltagarna från bootcamp. Preliminära datum 11-16 juni. Mer info på <a href="https://snht.se/">https://snht.se/</a></p>
 
       <h1>I samarbete med</h1>
       <div className={Sponsor.logo}><a href="https://www.fra.se/"><img style=
