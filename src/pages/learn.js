@@ -38,7 +38,7 @@ const LearnPage = () => {
         </li>
         <li>
           <a href="https://www.youtube.com/user/ZetaTwo">ZetaTwo</a>
-          : Calle Svensson är medlem i det bästa svenska CTF-laget, HackingForSoju. <a href="https://www.youtube.com/playlist?list=PLzzz0pYwY0M0u5daM96-QvHagA5v7FhLP">Här</a> går Calle igenom alla problem från 2019 och 2020 års tävling.
+          : Calle Svensson har många års erfarenhet av CTF-tävlingar. <a href="https://www.youtube.com/playlist?list=PLzzz0pYwY0M0u5daM96-QvHagA5v7FhLP">Här</a> går Calle igenom alla problem från tidigare SSM-tävlingar.
         </li>
         <li>
           <a href="https://www.youtube.com/user/RootOfTheNull">John Hammond</a>
