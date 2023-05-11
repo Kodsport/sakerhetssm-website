@@ -21,24 +21,25 @@ const IndexPage = () => {
       <h1>Vad är Säkerhets-SM?</h1>
       <p>Har du ett intresse för datorrelaterad problemlösning, eller vill du lära dig vad det egentligen innebär att hacka? Säkerhets-SM är en tävling med fokus på att lära ut koncept inom bland annat cybersäkerhet, men även att hitta de bästa eleverna i Sverige! Tävlingen är skapad för att passa alla kunskapsnivåer, så det spelar ingen roll om du är total nybörjare eller erfaren. Går det riktigt bra får du chansen att bli uttagen till landslaget och åka på EM!</p>
 
-      <p>Tävlingen är riktad främst mot gymnasie- och högstadieelever, och består av ett kval och en final. Man tävlar i lag med upp till 3 personer, så du kan tävla själv eller samla två kompisar för en ännu roligare upplevelse! Kvalet hålls online den 10-12 mars, med en träningstävling veckan innan för att hjälpa till att värma upp. Finalen hålls den 12-14 maj på Chalmers tekniska högskola i Göteborg för de ~30 bästa eleverna, med betald resa, mat och boende.</p>
+      <p>Tävlingen är riktad främst mot gymnasie- och högstadieelever, och består av ett kval och en final. Man tävlar i lag med upp till 3 personer, så du kan tävla själv eller samla två kompisar för en ännu roligare upplevelse! Kvalet hålls online den 10-12 mars, med en träningstävling veckan innan för att hjälpa till att värma upp. Finalen hålls den 26-28 maj på Chalmers tekniska högskola i Göteborg för de ~30 bästa eleverna, med betald resa, mat och boende.</p>
 
-      <p>Du kan redan nu <a href="https://ctf.sakerhetssm.se/signin">registrera dig</a> till tävligen! Joina gärna också <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> där du kan nå oss organisatörer, prata med andra deltagare, visa dina egna projekt eller ställa allmänna datorrelaterade frågor. Vi har också en <a href="https://mail.sakerhetssm.se/subscription/form">mailinglista</a> där vi skickar ut uppdateringar om tävlingen.</p>
+      <p>Joina gärna <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> där du kan nå oss organisatörer, prata med andra deltagare, visa dina egna projekt eller ställa allmänna datorrelaterade frågor. Vi har också en <a href="https://mail.sakerhetssm.se/subscription/form">mailinglista</a> där vi skickar ut uppdateringar om tävlingen.</p>
 
-      <div className={style.reg_button_container}>
+      {/* <div className={style.reg_button_container}>
         <a href="https://ctf.sakerhetssm.se/signin" className={style.reg_button}>
           Registrera dig!
         </a>
-      </div>
+      </div> */}
 
       <div className={style.discord_email_box}>
         <a href="https://discord.gg/edKFKKU"><img id={style.discord} src={discordLogo} alt="Discord" /></a>
         <a href="https://mail.sakerhetssm.se/subscription/form"><img id={style.mail} src={envelopeImg} alt="Mailinglista" /></a>
       </div>
 
-      <h1>Lös första problemet redan nu!</h1>
+      {/* <h1>Lös första problemet redan nu!</h1> */}
+      <h1>Lös ett problem från kvalet!</h1>
 
-      <p>Detta är en av uppgifterna som kommer på kvalet. Lyckas du lösa den så har du redan fått poäng!</p>
+      {/* <p>Detta är en av uppgifterna som kommer på kvalet. Lyckas du lösa den så har du redan fått poäng!</p> */}
 
       <h3>Länkstrul</h3>
       <p>Oj, nu har den <span style={{ color: "var(--accent-color)" }} >orangea</span> delen snurrat till sig. Kan du fixa länken? </p>
