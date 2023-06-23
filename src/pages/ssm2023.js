@@ -11,8 +11,8 @@ const Ssm2023Page = () => {
       <h2>Kvalet</h2>
       <p><a href="/ssm2023kval/">Här</a> hittar du tävlingssidan och resultatet för kvalet. <a href="https://www.youtube.com/watch?v=DEUCqrZO0rw">Här</a> hittar du avslutningsstreamen som hölls efter kvalet.</p>
 
-      {/* <h2>Final</h2> */}
-      {/* <p><a href="/ssm2023final/">Här</a> hittar du tävlingssidan och resultatet för finalen.</p> */}
+      <h2>Final</h2>
+      <p><a href="/ssm2023final/">Här</a> hittar du tävlingssidan och resultatet för finalen.</p>
 
       <h2>Arrangörsgrupp</h2>
       <h4>Organisation</h4>

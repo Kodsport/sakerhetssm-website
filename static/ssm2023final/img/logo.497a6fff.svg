@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 200 100"
+   version="1.1"
+   id="svg1826"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1828"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.80871042"
+     inkscape:cx="1109.1733"
+     inkscape:cy="510.6896"
+     inkscape:window-width="3440"
+     inkscape:window-height="1361"
+     inkscape:window-x="0"
+     inkscape:window-y="471"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1826" />
+  <defs
+     id="defs1570">
+    <!-- Hexagons -->
+    <!-- hexN is a hexagon inscribed in a circle with radius N -->
+    <path
+       id="hex1"
+       class="hex"
+       d="M0,0 M0,-1 0.866,-0.5 0.866,0.5 0,1 -0.866,0.5 -0.866,-0.5z" />
+    <path
+       id="hex2"
+       class="hex"
+       d="M0,0 M0,-2 1.732,-1 1.732,1 0,2 -1.732,1 -1.732,-1z" />
+    <path
+       id="hex3"
+       class="hex"
+       d="M0,0 M0,-3 2.598,-1.5 2.598,1.5 0,3 -2.598,1.5 -2.598,-1.5z" />
+    <path
+       id="hex4"
+       class="hex"
+       d="M0,0 M0,-4 3.464,-2 3.464,2 0,4 -3.464,2 -3.464,-2z" />
+    <path
+       id="hex5"
+       class="hex"
+       d="M0,0 M0,-5 4.33,-2.5 4.33,2.5 0,5 -4.33,2.5 -4.33,-2.5z" />
+    <path
+       id="hex6"
+       class="hex"
+       d="M0,0 M0,-6 5.196,-3 5.196,3 0,6 -5.196,3 -5.196,-3z" />
+    <style
+       id="style1568">
+      .hex {
+        fill: #d48600;
+      }
+      line {
+        stroke: #d48600;
+        stroke-width: 0.75;
+      }
+    </style>
+  </defs>
+  <!-- Background -->
+  <!-- Text area -->
+  <!-- Outer -->
+  <g
+     id="g1750">
+    <!-- Nodes -->
+    <g
+       id="g1636">
+      <use
+         xlink:href="#hex4"
+         x="60"
+         y="15"
+         id="use1580" />
+      <use
+         xlink:href="#hex4"
+         x="91"
+         y="22"
+         id="use1582" />
+      <use
+         xlink:href="#hex3"
+         x="22"
+         y="22"
+         id="use1584" />
+      <use
+         xlink:href="#hex4"
+         x="40"
+         y="30"
+         id="use1586" />
+      <use
+         xlink:href="#hex4"
+         x="16"
+         y="45"
+         id="use1588" />
+      <use
+         xlink:href="#hex6"
+         x="45"
+         y="50"
+         id="use1590" />
+      <use
+         xlink:href="#hex4"
+         x="20"
+         y="80"
+         id="use1592" />
+      <use
+         xlink:href="#hex3"
+         x="42"
+         y="73"
+         id="use1594" />
+      <use
+         xlink:href="#hex3"
+         x="55"
+         y="86"
+         id="use1596" />
+      <use
+         xlink:href="#hex4"
+         x="78"
+         y="72"
+         id="use1598" />
+      <use
+         xlink:href="#hex3"
+         x="100"
+         y="88"
+         id="use1600" />
+      <use
+         xlink:href="#hex4"
+         x="110"
+         y="12"
+         id="use1602" />
+      <use
+         xlink:href="#hex3"
+         x="160"
+         y="15"
+         id="use1604" />
+      <use
+         xlink:href="#hex3"
+         x="120"
+         y="28"
+         id="use1606" />
+      <use
+         xlink:href="#hex4"
+         x="180"
+         y="30"
+         id="use1608" />
+      <use
+         xlink:href="#hex4"
+         x="155"
+         y="32"
+         id="use1610" />
+      <use
+         xlink:href="#hex3"
+         x="182"
+         y="58"
+         id="use1612" />
+      <use
+         xlink:href="#hex6"
+         x="163"
+         y="68"
+         id="use1614" />
+      <use
+         xlink:href="#hex4"
+         x="120"
+         y="78"
+         id="use1616" />
+      <use
+         xlink:href="#hex4"
+         x="175"
+         y="82"
+         id="use1618" />
+      <use
+         xlink:href="#hex3"
+         x="140"
+         y="87"
+         id="use1620" />
+      <use
+         xlink:href="#hex3"
+         x="57"
+         y="30"
+         id="use1622" />
+      <use
+         xlink:href="#hex3"
+         x="140"
+         y="20"
+         id="use1624" />
+      <use
+         xlink:href="#hex3"
+         x="36"
+         y="90"
+         id="use1626" />
+      <use
+         xlink:href="#hex3"
+         x="125"
+         y="91"
+         id="use1628" />
+      <use
+         xlink:href="#hex3"
+         x="105"
+         y="72"
+         id="use1630" />
+      <use
+         xlink:href="#hex3"
+         x="143"
+         y="63"
+         id="use1632" />
+      <use
+         xlink:href="#hex3"
+         x="78"
+         y="32"
+         id="use1634" />
+    </g>
+    <!-- Edges -->
+    <g
+       id="g1748">
+      <line
+         x1="60"
+         y1="15"
+         x2="91"
+         y2="22"
+         id="line1638" />
+      <line
+         x1="60"
+         y1="15"
+         x2="22"
+         y2="22"
+         id="line1640" />
+      <line
+         x1="60"
+         y1="15"
+         x2="40"
+         y2="30"
+         id="line1642" />
+      <line
+         x1="22"
+         y1="22"
+         x2="40"
+         y2="30"
+         id="line1644" />
+      <line
+         x1="22"
+         y1="22"
+         x2="16"
+         y2="45"
+         id="line1646" />
+      <line
+         x1="40"
+         y1="30"
+         x2="45"
+         y2="50"
+         id="line1648" />
+      <line
+         x1="45"
+         y1="50"
+         x2="20"
+         y2="80"
+         id="line1650" />
+      <line
+         x1="45"
+         y1="50"
+         x2="42"
+         y2="73"
+         id="line1652" />
+      <line
+         x1="16"
+         y1="45"
+         x2="20"
+         y2="80"
+         id="line1654" />
+      <line
+         x1="16"
+         y1="45"
+         x2="45"
+         y2="50"
+         id="line1656" />
+      <line
+         x1="42"
+         y1="73"
+         x2="20"
+         y2="80"
+         id="line1658" />
+      <line
+         x1="42"
+         y1="73"
+         x2="55"
+         y2="86"
+         id="line1660" />
+      <line
+         x1="42"
+         y1="73"
+         x2="78"
+         y2="72"
+         id="line1662" />
+      <line
+         x1="78"
+         y1="72"
+         x2="55"
+         y2="86"
+         id="line1664" />
+      <line
+         x1="78"
+         y1="72"
+         x2="100"
+         y2="88"
+         id="line1666" />
+      <line
+         x1="110"
+         y1="12"
+         x2="91"
+         y2="22"
+         id="line1668" />
+      <line
+         x1="110"
+         y1="12"
+         x2="160"
+         y2="15"
+         id="line1670" />
+      <line
+         x1="110"
+         y1="12"
+         x2="120"
+         y2="28"
+         id="line1672" />
+      <line
+         x1="160"
+         y1="15"
+         x2="180"
+         y2="30"
+         id="line1674" />
+      <line
+         x1="160"
+         y1="15"
+         x2="155"
+         y2="32"
+         id="line1676" />
+      <line
+         x1="120"
+         y1="28"
+         x2="155"
+         y2="32"
+         id="line1678" />
+      <line
+         x1="120"
+         y1="28"
+         x2="91"
+         y2="22"
+         id="line1680" />
+      <line
+         x1="180"
+         y1="30"
+         x2="155"
+         y2="32"
+         id="line1682" />
+      <line
+         x1="180"
+         y1="30"
+         x2="163"
+         y2="68"
+         id="line1684" />
+      <line
+         x1="180"
+         y1="30"
+         x2="182"
+         y2="58"
+         id="line1686" />
+      <line
+         x1="155"
+         y1="32"
+         x2="163"
+         y2="68"
+         id="line1688" />
+      <line
+         x1="163"
+         y1="68"
+         x2="120"
+         y2="78"
+         id="line1690" />
+      <line
+         x1="120"
+         y1="78"
+         x2="100"
+         y2="88"
+         id="line1692" />
+      <line
+         x1="140"
+         y1="87"
+         x2="163"
+         y2="68"
+         id="line1694" />
+      <line
+         x1="140"
+         y1="87"
+         x2="120"
+         y2="78"
+         id="line1696" />
+      <line
+         x1="175"
+         y1="82"
+         x2="140"
+         y2="87"
+         id="line1698" />
+      <line
+         x1="175"
+         y1="82"
+         x2="163"
+         y2="68"
+         id="line1700" />
+      <line
+         x1="175"
+         y1="82"
+         x2="182"
+         y2="58"
+         id="line1702" />
+      <line
+         x1="100"
+         y1="88"
+         x2="55"
+         y2="86"
+         id="line1704" />
+      <line
+         x1="40"
+         y1="30"
+         x2="57"
+         y2="30"
+         id="line1706" />
+      <line
+         x1="91"
+         y1="22"
+         x2="57"
+         y2="30"
+         id="line1708" />
+      <line
+         x1="45"
+         y1="50"
+         x2="57"
+         y2="30"
+         id="line1710" />
+      <line
+         x1="60"
+         y1="15"
+         x2="110"
+         y2="12"
+         id="line1712" />
+      <line
+         x1="160"
+         y1="15"
+         x2="140"
+         y2="20"
+         id="line1714" />
+      <line
+         x1="120"
+         y1="28"
+         x2="140"
+         y2="20"
+         id="line1716" />
+      <line
+         x1="155"
+         y1="32"
+         x2="140"
+         y2="20"
+         id="line1718" />
+      <line
+         x1="20"
+         y1="80"
+         x2="36"
+         y2="90"
+         id="line1720" />
+      <line
+         x1="55"
+         y1="86"
+         x2="36"
+         y2="90"
+         id="line1722" />
+      <line
+         x1="100"
+         y1="88"
+         x2="125"
+         y2="91"
+         id="line1724" />
+      <line
+         x1="140"
+         y1="87"
+         x2="125"
+         y2="91"
+         id="line1726" />
+      <line
+         x1="78"
+         y1="72"
+         x2="105"
+         y2="72"
+         id="line1728" />
+      <line
+         x1="120"
+         y1="78"
+         x2="105"
+         y2="72"
+         id="line1730" />
+      <line
+         x1="105"
+         y1="72"
+         x2="143"
+         y2="63"
+         id="line1732" />
+      <line
+         x1="120"
+         y1="78"
+         x2="143"
+         y2="63"
+         id="line1734" />
+      <line
+         x1="163"
+         y1="68"
+         x2="143"
+         y2="63"
+         id="line1736" />
+      <line
+         x1="155"
+         y1="32"
+         x2="143"
+         y2="63"
+         id="line1738" />
+      <line
+         x1="45"
+         y1="50"
+         x2="78"
+         y2="72"
+         id="line1740" />
+      <line
+         x1="57"
+         y1="30"
+         x2="78"
+         y2="32"
+         id="line1742" />
+      <line
+         x1="91"
+         y1="22"
+         x2="78"
+         y2="32"
+         id="line1744" />
+      <line
+         x1="120"
+         y1="28"
+         x2="78"
+         y2="32"
+         id="line1746" />
+    </g>
+  </g>
+  <!-- Inner -->
+  <!-- <image xlink:href="./affisch/kodsport_liggande_transparent.svg" height="12" x="147" y="83" /> -->
+  <!-- <image xlink:href="./kodsport_stående_transparent.svg" width="30" x="160" y="70" /> -->
+  <!--  Single line text -->
+  <!-- Two line text -->
+</svg>
