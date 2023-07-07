@@ -7,7 +7,7 @@ const FebMar2022Page = () => {
   return (
     <MonthlyLayout>
       <h1>Månadens problem - Juli 2023</h1>
-      <p>Jätte Wiktigt att Tänka på säkerheten! Servern ligger på <code>http://35.228.72.74:3000</code>.</p>
+      <p>Jätte Wiktigt att Tänka på säkerheten! Servern ligger på <code><a href="http://35.228.72.74:3000">http://35.228.72.74:3000</a></code>.</p>
     </MonthlyLayout>
   )
 }
