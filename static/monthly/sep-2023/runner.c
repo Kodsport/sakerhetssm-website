@@ -40,8 +40,6 @@ int load_prog(char *prog, size_t instruction_count) {
     Run the loaded program at fd once.
 */
 int test_prog(int fd) {
-    char data_in[0x1000];
-
     union bpf_attr attr = {
         .test = {
             .prog_fd = fd
