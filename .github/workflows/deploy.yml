@@ -20,4 +20,4 @@ jobs:
       - run: npm run build
       - run: echo "${{secrets.SSH_PRIVATE_KEY}}" > id_rsa
       - run: chmod 400 id_rsa
-      - run: rsync -e "ssh -o StrictHostKeyChecking=no -i id_rsa" -r --delete public/ deploy-website@sakerhetssm.se:ssm_web_static/
+      - run: rsync -e "ssh -o StrictHostKeyChecking=no -i id_rsa" -r --delete public/ deploy-website@35.217.39.181:ssm_web_static/
