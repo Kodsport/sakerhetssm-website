@@ -9,7 +9,7 @@ const Ssm2026Page = () => {
       {/* <p><a href="https://github.com/Kodsport/sakerhetssm-2026-solutions">Här</a> finns uppgifter och lösningar från kvalet och finalen.</p> */}
 
       <h2>Kvalet</h2>
-      <p><a href="/ssm2026kval/">Här</a> hittar du tävlingssidan och resultatet för kvalet.</p>
+      <p><a href="/ssm2026kval/">Här</a> hittar du tävlingssidan och resultatet för kvalet. <a href="https://www.youtube.com/watch?v=2hg0LikSoeo">Här</a> hittar du avslutningsstreamen som hölls efter kvalet.</p>
 
       <h2>Final</h2>
       <p><a href="/ssm2026final/">Här</a> hittar du tävlingssidan och resultatet för finalen.</p>

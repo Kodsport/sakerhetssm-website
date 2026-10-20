@@ -9,7 +9,7 @@ const Ssm2025Page = () => {
       {/* <p><a href="https://github.com/Kodsport/sakerhetssm-2025-solutions">Här</a> finns uppgifter och lösningar från kvalet och finalen.</p> */}
 
       <h2>Kvalet</h2>
-      <p><a href="/ssm2025kval/">Här</a> hittar du tävlingssidan och resultatet för kvalet. <a href="https://www.youtube.com/watch?v=pTCTkHLeFGQ">Här</a> hittar du avslutningsstreamen som hölls efter kvalet.</p>
+      <p><a href="/ssm2025kval/">Här</a> hittar du tävlingssidan och resultatet för kvalet. <a href="https://www.youtube.com/watch?v=09E_FTBW9mU">Här</a> hittar du avslutningsstreamen som hölls efter kvalet.</p>
 
       <h2>Final</h2>
       <p><a href="/ssm2025final/">Här</a> hittar du tävlingssidan och resultatet för finalen.</p>
